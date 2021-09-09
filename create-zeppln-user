@@ -54,7 +54,7 @@ while getopts "hp:c" option; do
    esac
 done
 
-if [[ "${CREATE}" -eq "1" ]]; then
+if [[ "${CREATE}" -eq 1 ]]; then
 
   echo "Option c passed in, will attempt to create user, assign policy, and create keys."
   ZEPPLNUSERNAME='zeppln-com'
