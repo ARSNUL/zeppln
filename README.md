@@ -10,14 +10,14 @@ The user account that will be created will be named `zeppln-com`.
 
 After running this script make sure to copy and store in a safe place the credentials that will be output to the terminal. Once the key pair are created there is no option of retrieving the secret from AWS although, of course, you can simply delete the user and try again.
 
-Usage:
+Get usage:
 
     $ ./create-zeppln-user -h
     
-Execution:
+Perform operation:
 
-    $ ./create-zeppln-user -c -p credential_profile
+    $ ./create-zeppln-user -c -p [profile name]
     
-OR (using default credential profile)
+or (using your default AWS credential profile)
 
     $ ./create-zeppln-user -c 
